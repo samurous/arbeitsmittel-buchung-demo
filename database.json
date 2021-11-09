@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Beamer",
+      "desc": "4K Beamer mit Hdmi Anschluß."
+    },
+    {
+      "id": 2,
+      "name": "Golf IV",
+      "desc": "Golf IV Diesel. Kennzeichen FR-YR-123."
+    },
+    {
+      "id": 3,
+      "name": "Lenovo t490s",
+      "desc": "Lenovo t490s Laptop. i7-9910, 512 GB SSD, 32 GB RAM."
+    },
+    {
+      "id": 4,
+      "name": "Apple iPad",
+      "desc": "iPad 12. Akku nur noch 50% Kapazität."
+    }
+  ],
+  "bookings": [
+    {
+      "user": "Samuel",
+      "id": 1,
+      "start": "2021-11-07",
+      "end": "2021-11-10",
+      "itemIds": [
+        1,
+        2
+      ]
+    }
+  ],
+  "cart": {
+    "start": "2021-11-05",
+    "end": "2021-11-06",
+    "itemIds": [
+      3,
+      4
+    ]
+  }
+}
