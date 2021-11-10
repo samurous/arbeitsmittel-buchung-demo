@@ -19,26 +19,28 @@
       "id": 4,
       "name": "Apple iPad",
       "desc": "iPad 12. Akku nur noch 50% Kapazität."
+    },
+    {
+      "name": "Fluke 175",
+      "desc": "Digital Multimeter. CAT III 1000 V/CAT IV 600 V zertifiziert.",
+      "id": 5
     }
   ],
   "bookings": [
     {
       "user": "Samuel",
-      "id": 1,
-      "start": "2021-11-07",
-      "end": "2021-11-10",
+      "start": "2021-11-14T23:00:00.000Z",
+      "end": "2021-11-16T23:00:00.000Z",
       "itemIds": [
         1,
         2
-      ]
+      ],
+      "id": 1
     }
   ],
   "cart": {
-    "start": "2021-11-05",
-    "end": "2021-11-06",
-    "itemIds": [
-      3,
-      4
-    ]
+    "start": "2021-11-05T23:00:00.000Z",
+    "end": "2021-11-05T23:00:00.000Z",
+    "itemIds": []
   }
 }
